@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import {BrowserRouter as Router, Redirect, Route, RouteProps, Switch} from 'react-router-dom';
+import {Box} from "@material-ui/core";
+import routes from "./routes";
+import DrawerLayout from "./shared/DrawerLayout";
+
+interface AppRoute extends RouteProps {
+    component: any,
+    layout: any,
+}
+
+const AppRoute: React.FC<AppRoute> = ({ component, layout, ...rest }) => {
+
+    const Component = component;
+    const Layout = layout;
+
+    return (
+        <Route {...rest} render={props => (
+            <Layout>
+                <Component {...props} />
+            </Layout>
+        )} />
+    )
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [loading, isLoading] = useState<boolean>(true);
+
+    useEffect(() => {
+        isLoading(false);
+    }, []);
+
+    return (
+        <Box component="main" className="main">
+            {!loading ?
+                <Router>
+                    <Switch>
+                        {(
+                            routes.map(route => (
+                                <AppRoute layout={DrawerLayout} key={route.name} path={route.path} component={route.component} exact />
+                            ))
+                        )}
+                        {<Redirect to="/"/>}
+                    </Switch>
+                </Router>
+                : <h4>Loading...</h4>}
+        </Box>
+    );
 }
 
 export default App;
