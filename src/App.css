@@ -12,6 +12,7 @@ body, html {
   height: 100%;
   flex-direction: column;
   display: flex;
+  background-color: #efefef;
 }
 
 main {
