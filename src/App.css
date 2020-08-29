@@ -12,7 +12,6 @@ body, html {
   height: 100%;
   flex-direction: column;
   display: flex;
-  background-color: #efefef;
 }
 
 main {
@@ -20,4 +19,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #efefef;
+}
+
+.skillbar-percent {
+  display: none
 }
