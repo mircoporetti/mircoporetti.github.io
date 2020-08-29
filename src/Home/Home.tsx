@@ -1,16 +1,6 @@
 import React, {FunctionComponent} from 'react';
-import {Card, CardContent, Divider, Grid, IconButton, Typography} from "@material-ui/core";
+import {Card, CardContent, Container, Divider, Grid, IconButton, Typography} from "@material-ui/core";
 import css from "./home.module.scss";
-import avatar from "./me.jpg";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import YouTubeIcon from '@material-ui/icons/YouTube';
-import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
-import HomeWorkIcon from '@material-ui/icons/HomeWork';
-import PhoneIcon from '@material-ui/icons/Phone';
-import MailIcon from '@material-ui/icons/Mail';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 import Skills from "./Skills/Skills";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
@@ -27,6 +17,21 @@ const Home: FunctionComponent<Props> = (props) => {
                 <div className={css.backgroundImage}/>
 
                 <PersonalInfo/>
+
+                <Grid container justify={"center"} className={css.aboutMeGrid}>
+                    <Grid item xs={10} sm={8} md={7}>
+                        <Typography variant={'h3'} className={css.aboutMe}>About me</Typography>
+                        <Typography variant={'h6'} className={css.description}>
+                            Hello, I'm Mirco!
+                            I am an Enthusiastic software developer with a constant desire to grow and learn new things.
+                            I like to write readable, testable and maintainable code to build quality software.
+                            My focus is to improve my agility day by day, sharing knowledge among members of the team and collaborating to grow together.
+                            <br/><br/>
+                            And what else...? I love to play guitar and travel with my camera!
+                        </Typography>
+                    </Grid>
+                </Grid>
+
                 <Skills/>
 
             </section>
