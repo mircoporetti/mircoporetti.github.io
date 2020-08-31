@@ -11,8 +11,10 @@ COPY package*.json /app/
 
 #Install dependencies
 # --production -> skip the devDependencies
+RUN npm install node-gyp
+RUN npm install node-sass
 RUN npm install --production
-RUN npm cache clean --force
+
 #Copy remaining files
 COPY . .
 
@@ -21,7 +23,6 @@ ENV REACT_APP_ENVIRONMENT=$ENV
 
 COPY ./config/$ENV/.env /app/
 
-RUN npm rebuild node-sass --force
 #Build the project for production
 RUN npm run build
 
