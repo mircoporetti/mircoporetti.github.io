@@ -23,9 +23,9 @@ const Skills: FunctionComponent<Props> = (props) => {
         {type: "ReactJs", level: 55}];
 
     const others = [
-        {type: "TDD", level: 65},
-        {type: "Docker", level: 50},
-        {type: "Kubernetes", level: 50}
+        {type: "TDD", level: 70},
+        {type: "Docker", level: 60},
+        {type: "Kubernetes", level: 60}
     ];
 
     const colors = {
