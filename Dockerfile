@@ -1,7 +1,7 @@
 #Build Stage Start
 
 #Specify a base image
-FROM arm32v7/node:14.9.0 as builder
+FROM arm32v7/node:14.9.0-alpine as builder
 
 #Specify a working directory
 WORKDIR '/app'
