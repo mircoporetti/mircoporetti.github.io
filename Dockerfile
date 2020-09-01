@@ -1,7 +1,7 @@
 #Build Stage Start
 
 #Specify a base image
-FROM arm32v7/node:14.9.0-alpine as builder
+FROM node:13.12.0 as builder
 
 #Specify a working directory
 WORKDIR '/app'
@@ -11,9 +11,6 @@ COPY package*.json /app/
 
 #Install dependencies
 # --production -> skip the devDependencies
-RUN rm -rf ~/.node-gyp
-RUN npm install node-gyp
-RUN npm install node-sass
 RUN npm install --production
 
 #Copy remaining files
@@ -28,7 +25,7 @@ COPY ./config/$ENV/.env /app/
 RUN npm run build
 
 #Run Stage Start
-FROM arm32v7/nginx:1.19.2
+FROM nginx:1.17.9-alpine
 
 #Copy production build files from builder phase to nginx
 COPY --from=builder /app/build /var/www
