@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import css from "./personalInfo.module.scss";
+import css from "./personalInfo.module.css";
 import {Card, CardContent, Divider, Grid, IconButton, Typography} from "@material-ui/core";
 import avatar from "../me.jpg";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";

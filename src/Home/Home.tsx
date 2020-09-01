@@ -1,6 +1,6 @@
 import React, {FunctionComponent} from 'react';
 import {Card, CardContent, Container, Divider, Grid, IconButton, Typography} from "@material-ui/core";
-import css from "./home.module.scss";
+import css from "./home.module.css";
 
 import Skills from "./Skills/Skills";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";

@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import {Card, CardContent, Container, Divider, Grid, Typography} from "@material-ui/core";
-import css from "./skills.module.scss";
+import css from "./skills.module.css";
 import SkillBar from "react-skillbars";
 
 interface OwnProps {}
