@@ -12,7 +12,7 @@ COPY package*.json /app/
 #Install dependencies
 # --production -> skip the devDependencies
 RUN rm -rf ~/.node-gyp
-RUN npm install node-gy
+RUN npm install node-gyp
 RUN npm install node-sass
 RUN npm install --production
 
