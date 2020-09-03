@@ -1,8 +1,7 @@
 import React, {FunctionComponent} from 'react';
-import {Card, CardContent, Container, Divider, Grid, IconButton, Typography} from "@material-ui/core";
+import {Grid, Typography} from "@material-ui/core";
 import css from "./home.module.css";
-
-import Skills from "./Skills/Skills";
+import Timeline from "./Timeline/Timeline";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
 
 interface OwnProps {}
@@ -32,7 +31,7 @@ const Home: FunctionComponent<Props> = (props) => {
                     </Grid>
                 </Grid>
 
-                <Skills/>
+                <Timeline/>
 
             </section>
         </>

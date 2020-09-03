@@ -47,15 +47,7 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                                 <HomeWorkIcon />
                                             </Grid>
                                             <Grid item xs={9} sm={7} md={7}>
-                                                <Typography variant={"h6"} className={css.basicInfo}>Via Cimarosa 7, Varese ITA</Typography>
-                                            </Grid>
-                                        </Grid>
-                                        <Grid container justify={"center"} >
-                                            <Grid item xs={1} sm={1} md={1}>
-                                                <PhoneIcon />
-                                            </Grid>
-                                            <Grid item xs={9} sm={7} md={7}>
-                                                <Typography variant={"h6"} className={css.basicInfo}>+39 3403254158</Typography>
+                                                <Typography variant={"h6"} className={css.basicInfo}>Varese - ITALY</Typography>
                                             </Grid>
                                         </Grid>
                                         <Grid container justify={"center"} >

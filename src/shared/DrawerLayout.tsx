@@ -106,7 +106,7 @@ const DrawerLayout: FunctionComponent = (props) => {
                     <Typography variant="h6" noWrap className={classes.title}>
                         Mirco Poretti
                     </Typography>
-                    <IconButton
+                    {/*<IconButton
                         color="inherit"
                         aria-label="open drawer"
                         edge="end"
@@ -114,7 +114,7 @@ const DrawerLayout: FunctionComponent = (props) => {
                         className={clsx(open && classes.hide)}
                     >
                         <MenuIcon />
-                    </IconButton>
+                    </IconButton>*/}
                 </Toolbar>
             </AppBar>
             <main
