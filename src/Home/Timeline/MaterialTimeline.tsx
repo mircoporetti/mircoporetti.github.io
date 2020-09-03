@@ -109,7 +109,7 @@ export default function MaterialTimeline() {
             <TimelineItem>
                 <TimelineOppositeContent>
                     <Typography variant="body2" color="textSecondary">
-                        2012
+                        2015
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>

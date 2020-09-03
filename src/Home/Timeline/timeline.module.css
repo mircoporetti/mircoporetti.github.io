@@ -1,0 +1,13 @@
+.timelineGrid {
+  background-color: #efefef;
+  margin-top: 4rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.timelineTitle{
+    font-size: 1rem !important;
+    font-family: "Roboto", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 2.1px !important;
+    font-weight: normal !important;
+}
