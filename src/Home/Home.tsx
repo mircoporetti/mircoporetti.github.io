@@ -3,6 +3,7 @@ import {Grid, Typography} from "@material-ui/core";
 import css from "./home.module.css";
 import Timeline from "./Timeline/Timeline";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
+import Skills from "./Skills/Skills";
 
 interface OwnProps {}
 
@@ -31,6 +32,7 @@ const Home: FunctionComponent<Props> = (props) => {
                     </Grid>
                 </Grid>
 
+                <Skills/>
                 <Timeline/>
 
             </section>

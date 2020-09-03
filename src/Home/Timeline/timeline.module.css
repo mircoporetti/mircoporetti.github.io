@@ -1,6 +1,6 @@
 .timelineGrid {
   background-color: #efefef;
-  margin-top: 4rem !important;
+  margin-top: 2rem !important;
   margin-bottom: 5rem !important;
 }
 
@@ -10,4 +10,5 @@
     text-transform: uppercase;
     letter-spacing: 2.1px !important;
     font-weight: normal !important;
+    margin-bottom: -1rem !important;
 }
