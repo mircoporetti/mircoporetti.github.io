@@ -15,7 +15,7 @@ const Timeline: FunctionComponent<Props> = (props) => {
                 <Grid container justify={"center"}>
                     <Grid item xs={11} sm={11} md={11}>
                         <Grid container justify={"center"} className={css.timelineGrid} spacing={2}>
-                            <Grid item xs={11} sm={11} lg={10} xl={4}>
+                            <Grid item xs={11} sm={11} lg={10} xl={10}>
                                 <Grid container justify={"center"} spacing={2}>
                                     <Grid item xs={12} sm={7} md={10}>
                                         <Typography variant={"h6"} className={css.timelineTitle} align={"center"}>Now</Typography>

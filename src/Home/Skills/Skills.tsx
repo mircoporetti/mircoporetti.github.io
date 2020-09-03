@@ -14,7 +14,7 @@ const Skills: FunctionComponent<Props> = (props) => {
                 <Grid container justify={"center"}>
                     <Grid item xs={11} sm={8} md={9}>
                         <Grid container justify={"center"} className={css.skillsGrid} spacing={2}>
-                            <Grid item xs={11} sm={11} lg={10} xl={4}>
+                            <Grid item xs={11} sm={11} lg={10} xl={10}>
                                 <Card>
                                     <CardContent>
                                         <Grid container justify={"center"} spacing={1}>

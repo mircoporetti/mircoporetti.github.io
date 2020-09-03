@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
@@ -7,12 +7,11 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
+import WorkIcon from '@material-ui/icons/Work';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import SchoolIcon from '@material-ui/icons/School';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -36,7 +35,7 @@ export default function MaterialTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot>
-                        <FastfoodIcon />
+                        <WorkIcon color={"primary"}/>
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
@@ -45,7 +44,9 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             Dos Group SA - Mendrisio, Switzerland
                         </Typography>
+{/*
                         <Typography>Because you need strength</Typography>
+*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -61,7 +62,9 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             MAC Solutions - Chiasso, Switzerland
                         </Typography>
+{/*
                         <Typography>Because it&apos;s awesome!</Typography>
+*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -73,7 +76,7 @@ export default function MaterialTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot color="primary" variant="outlined">
-                        <HotelIcon />
+                        <WorkIcon color={"primary"}/>
                     </TimelineDot>
                     <TimelineConnector className={classes.secondaryTail} />
                 </TimelineSeparator>
@@ -82,7 +85,9 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             Restart38 - Pavia, Italy
                         </Typography>
+{/*
                         <Typography>Because you need rest</Typography>
+*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -93,8 +98,8 @@ export default function MaterialTimeline() {
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                    <TimelineDot color="secondary">
-                        <RepeatIcon />
+                    <TimelineDot>
+                        <LaptopMacIcon color={"primary"}/>
                     </TimelineDot>
                 </TimelineSeparator>
                 <TimelineContent>
@@ -102,7 +107,9 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             eWitness Srl - Milano
                         </Typography>
+{/*
                         <Typography>Because this is the life you love!</Typography>
+*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -114,7 +121,7 @@ export default function MaterialTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot color="secondary">
-                        <RepeatIcon />
+                        <SchoolIcon/>
                     </TimelineDot>
                 </TimelineSeparator>
                 <TimelineContent>
@@ -122,7 +129,9 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             University of Insubria - Varese, Italy
                         </Typography>
+{/*
                         <Typography>Because this is the life you love! </Typography>
+*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
