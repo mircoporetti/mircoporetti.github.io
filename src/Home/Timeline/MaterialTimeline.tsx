@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
         padding: '6px 16px',
     },
     secondaryTail: {
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: 'green',
     },
 }));
 
@@ -29,9 +29,6 @@ export default function MaterialTimeline() {
         <Timeline align="alternate">
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="body2" color="textSecondary">
-                        2019
-                    </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot>
@@ -44,27 +41,14 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             Dos Group SA - Mendrisio, Switzerland
                         </Typography>
-{/*
-                        <Typography>Because you need strength</Typography>
-*/}
-                    </Paper>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineSeparator>
-                    <TimelineDot color="primary">
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                    <Paper elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                            MAC Solutions - Chiasso, Switzerland
+                        <Typography>
+                            I worked on "Comunemio", a mobile application that aggregates various services for municipalities of the Swiss canton of Ticino, developing microservices using Java and Spring framework. Moreover I implemented the ReactJs Frontend and the backend service of the related back-office platform.
+                            I had the opportunity to become familiar with Docker, Kubernetes for orchestrating containers and Jenkins for CI/CD.
+                            <br/><br/>
+                            I gave my contribution to an IoT system for tracking via Lora devices, using Kotlin and RabbitMq and built a php/Laravel web application for internal use for a Swiss television broadcaster.
+                            <br/><br/>
+                            Thanks also to an enthusiastic team we are growing together, practicing TDD and Clean Code.
                         </Typography>
-{/*
-                        <Typography>Because it&apos;s awesome!</Typography>
-*/}
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -85,9 +69,11 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             Restart38 - Pavia, Italy
                         </Typography>
-{/*
-                        <Typography>Because you need rest</Typography>
-*/}
+                        <Typography>
+                            I worked on the backend of various web applications for different customers, collaborating directly with front end developers and graphic designers.
+                            <br/><br/>
+                            Thanks to this experience, I have improved my self-organization skills.
+                        </Typography>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -101,15 +87,38 @@ export default function MaterialTimeline() {
                     <TimelineDot>
                         <LaptopMacIcon color={"primary"}/>
                     </TimelineDot>
+                    <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
-                            eWitness Srl - Milano
+                            eWitness Srl - Milan, Italy
                         </Typography>
-{/*
-                        <Typography>Because this is the life you love!</Typography>
-*/}
+                        <Typography>
+                            I implemented solutions, for the import and the secure archiving of documents to support companies in the dematerialization process, using Java programming language.
+                            The maintenance of the eWitness digital archiving system was one of my responsabilities.
+                            <br/><br/>
+                            I developed small functionalities of a web application in which I approached for the first time the MEAN stack.
+                        </Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineDot color="primary">
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector className={classes.secondaryTail}/>
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                            Elmec Informatica - Varese, Italy
+                        </Typography>
+                        <Typography>
+                            Updating, restyling and adding new features to the company e-learning platform, based on Moodle.
+                            (Internship for BSc)
+                        </Typography>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -120,7 +129,7 @@ export default function MaterialTimeline() {
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                    <TimelineDot color="secondary">
+                    <TimelineDot color="inherit">
                         <SchoolIcon/>
                     </TimelineDot>
                 </TimelineSeparator>
@@ -129,9 +138,7 @@ export default function MaterialTimeline() {
                         <Typography variant="h6" component="h1">
                             University of Insubria - Varese, Italy
                         </Typography>
-{/*
-                        <Typography>Because this is the life you love! </Typography>
-*/}
+                        <Typography>Bachelor's Degree in Computer Science and Technology </Typography>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
