@@ -25,3 +25,8 @@ main {
 .skillbar-percent {
   display: none
 }
+
+.spinner{
+  margin-left: 48%;
+  margin-top: 30%;
+}

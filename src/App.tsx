@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Redirect, Route, RouteProps, Switch} from 'react-router-dom';
-import {Box} from "@material-ui/core";
+import {Box, CircularProgress} from "@material-ui/core";
 import routes from "./routes";
 import DrawerLayout from "./shared/DrawerLayout";
 
@@ -29,6 +29,7 @@ function App() {
     const [loading, isLoading] = useState<boolean>(true);
 
     useEffect(() => {
+        document.title = 'Mirco Poretti';
         isLoading(false);
     }, []);
 
@@ -45,7 +46,7 @@ function App() {
                         {<Redirect to="/"/>}
                     </Switch>
                 </Router>
-                : <h4>Loading...</h4>}
+                : <CircularProgress className={"spinner"}/>}
         </Box>
     );
 }
