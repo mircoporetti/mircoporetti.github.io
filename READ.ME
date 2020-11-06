@@ -1,2 +1,2 @@
-docker build --rm -f Dockerfile -f Dockerfile_prod -t sp0re90/myportfolio:latest --build-arg ENV=prod .
+docker build -f Dockerfile_prod -t sp0re90/myportfolio:latest --build-arg ENV=prod .
 docker push sp0re90/myportfolio:latest
