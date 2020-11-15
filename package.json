@@ -22,7 +22,7 @@
     "react-skillbars": "^1.6.1",
     "typescript": "^3.7.5"
   },
-  "homepage": "http://mircoporetti.github.io/resume",
+  "homepage": "http://mircoporetti.github.io/my-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
