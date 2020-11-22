@@ -15,7 +15,7 @@ import SchoolIcon from '@material-ui/icons/School';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
-        padding: '6px 16px',
+        padding: '2em',
     },
     secondaryTail: {
         backgroundColor: 'green',
@@ -45,7 +45,7 @@ export default function MaterialTimeline() {
                             I worked on "Comunemio", a mobile application that aggregates various services for municipalities of the Swiss canton of Ticino, developing microservices using Java and Spring framework. Moreover I implemented the ReactJs Frontend and the backend service of the related back-office platform.
                             I had the opportunity to become familiar with Docker, Kubernetes for orchestrating containers and Jenkins for CI/CD.
                             <br/><br/>
-                            I gave my contribution to an IoT system for tracking via Lora devices, using Kotlin and RabbitMq and built a php/Laravel web application for internal use for a Swiss television broadcaster.
+                            I gave my contribution to an IoT system for tracking via Lora devices using Kotlin and RabbitMq, to an application used by Swiss casinos for managing player's responsible gaming limits and built a php/Laravel web application for internal use for a Swiss television broadcaster.
                             <br/><br/>
                             Thanks also to an enthusiastic team we are growing together, practicing TDD and Clean Code.
                         </Typography>
