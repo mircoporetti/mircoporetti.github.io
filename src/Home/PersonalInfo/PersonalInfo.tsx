@@ -1,17 +1,16 @@
-import React, { FunctionComponent } from 'react';
+import React, {FunctionComponent} from 'react';
 import css from "./personalInfo.module.css";
 import {Card, CardContent, Divider, Grid, IconButton, Typography} from "@material-ui/core";
 import avatar from "../me.jpg";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import HomeWorkIcon from "@material-ui/icons/HomeWork";
-import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-
+import StorageIcon from '@material-ui/icons/Storage';
 interface OwnProps {}
 
 type Props = OwnProps;
@@ -70,6 +69,14 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                         target={"_blank"}
                                     >
                                         <LinkedInIcon className={css.socialIcon}/>
+                                    </IconButton>
+                                </Grid>
+                                <Grid item sm={2}>
+                                    <IconButton
+                                        href={"https://stackoverflow.com/users/story/3748710"}
+                                        target={"_blank"}
+                                    >
+                                        <StorageIcon className={css.socialIcon}/>
                                     </IconButton>
                                 </Grid>
                                 <Grid item sm={2}>
