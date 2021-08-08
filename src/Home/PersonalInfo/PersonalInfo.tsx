@@ -30,7 +30,7 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                 <Grid item xs={12} sm={7} md={7} className={css.personalInfoWrapper}>
                                     <Typography variant={"h6"} className={css.hello}>Hi! I am</Typography>
                                     <Typography variant={"h3"} className={css.nameSurname}>Mirco Poretti</Typography>
-                                    <Typography variant={"h4"} className={css.profession}>Software Developer</Typography>
+                                    <Typography variant={"h4"} className={css.profession}>Software Engineer</Typography>
                                     <Divider variant={"middle"}/>
                                     <section className={css.basicInfoSection}>
                                         <Grid container justify={"center"} >
@@ -46,7 +46,7 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                                 <HomeWorkIcon />
                                             </Grid>
                                             <Grid item xs={9} sm={7} md={7}>
-                                                <Typography variant={"h6"} className={css.basicInfo}>Varese - ITALY</Typography>
+                                                <Typography variant={"h6"} className={css.basicInfo}>Berlin - GERMANY</Typography>
                                             </Grid>
                                         </Grid>
                                         <Grid container justify={"center"} >

@@ -28,7 +28,27 @@ export default function MaterialTimeline() {
     return (
         <Timeline align="alternate">
             <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineDot color="primary" variant="outlined">
+                        <WorkIcon color={"primary"}/>
+                    </TimelineDot>
+                    <TimelineConnector className={classes.secondaryTail} />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                            FRIDAY Insurance - Berlin, Germany
+                        </Typography>
+                        <Typography>
+                        </Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
                 <TimelineOppositeContent>
+                    <Typography variant="body2" color="textSecondary">
+                        2021
+                    </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot>
