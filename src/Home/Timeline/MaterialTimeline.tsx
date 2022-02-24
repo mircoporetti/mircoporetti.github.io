@@ -40,6 +40,7 @@ export default function MaterialTimeline() {
                             FRIDAY Insurance - Berlin, Germany
                         </Typography>
                         <Typography>
+                            Implementation of the new services related to MyFriday and collaboration with the team for improving the already existing features of the product.
                         </Typography>
                     </Paper>
                 </TimelineContent>
