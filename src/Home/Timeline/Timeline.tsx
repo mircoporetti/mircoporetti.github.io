@@ -1,13 +1,13 @@
 import React, {FunctionComponent} from 'react';
-import {Card, CardContent, Container, Grid, Typography} from "@material-ui/core";
+import {Container, Grid, Typography} from "@material-ui/core";
 import css from "./timeline.module.css";
-import MaterialTimeline from "./MaterialTimeline";
+import AnimatedTimeline from "./AnimatedTimeline";
 
 interface OwnProps {}
 
 type Props = OwnProps;
 
-const Timeline: FunctionComponent<Props> = (props) => {
+const Timeline: FunctionComponent<Props> = () => {
 
     return (
         <>
@@ -19,7 +19,7 @@ const Timeline: FunctionComponent<Props> = (props) => {
                                 <Typography variant={"h6"} className={css.timelineTitle} align={"center"}>Now</Typography>
                             </Grid>
                             <Grid item xs={12} sm={10} md={10}>
-                                <MaterialTimeline/>
+                                <AnimatedTimeline/>
                             </Grid>
                         </Grid>
                     </Grid>
