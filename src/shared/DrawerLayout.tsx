@@ -18,6 +18,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import {RssFeed} from "@material-ui/icons";
 import css from "../Home/PersonalInfo/personalInfo.module.css";
+import {Link} from "@material-ui/core";
 
 const drawerWidth = 240;
 
@@ -43,7 +44,7 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         title: {
             flexGrow: 1,
-            fontFamily:'Andale Mono'
+            fontFamily:'Roboto'
         },
         hide: {
             display: 'none',
@@ -109,15 +110,15 @@ const DrawerLayout: FunctionComponent = (props) => {
                         Mirco
                     </Typography>
                     {}
+                    <Link color= "inherit" underline="none" href={"https://mircoporetti.me/blog"}
+                          target={"_blank"}>
                     <Typography align={"right"} variant="h6"  className={classes.title}>
                         Blog
-                        <IconButton
-                            href={"https://mircoporetti.me/blog"}
-                            target={"_blank"}
-                        >
+                        <IconButton>
                             <RssFeed className={css.socialIcon}/>
                         </IconButton>
                     </Typography>
+                    </Link>
                 </Toolbar>
             </AppBar>
             <main
