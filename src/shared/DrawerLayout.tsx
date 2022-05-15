@@ -16,6 +16,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import {RssFeed} from "@material-ui/icons";
+import css from "../Home/PersonalInfo/personalInfo.module.css";
 
 const drawerWidth = 240;
 
@@ -107,6 +109,15 @@ const DrawerLayout: FunctionComponent = (props) => {
                         Mirco
                     </Typography>
                     {}
+                    <Typography align={"right"} variant="h6"  className={classes.title}>
+                        Blog
+                        <IconButton
+                            href={"https://mircoporetti.me/blog"}
+                            target={"_blank"}
+                        >
+                            <RssFeed className={css.socialIcon}/>
+                        </IconButton>
+                    </Typography>
                 </Toolbar>
             </AppBar>
             <main
