@@ -40,7 +40,8 @@ const useStyles = makeStyles((theme: Theme) =>
             marginRight: drawerWidth,
         },
         title: {
-            flexGrow: 1
+            flexGrow: 1,
+            fontFamily:'Andale Mono'
         },
         hide: {
             display: 'none',
@@ -102,8 +103,8 @@ const DrawerLayout: FunctionComponent = (props) => {
                 })}
             >
                 <Toolbar>
-                    <Typography variant="h6"  className={classes.title}>
-                        Mirco Poretti
+                    <Typography variant="h5"  className={classes.title}>
+                        Mirco
                     </Typography>
                     {}
                 </Toolbar>
