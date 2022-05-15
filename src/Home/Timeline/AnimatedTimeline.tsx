@@ -4,8 +4,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
-import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import HomeWorkIcon from "@material-ui/icons/HomeWork";
+import {ListItemIcon} from "@material-ui/core";
 
 export default function AnimatedTimeline() {
     return (
@@ -93,8 +93,8 @@ export default function AnimatedTimeline() {
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                icon={<LaptopMacIcon/>}
+                iconStyle={{ background: '#134f5c', color: '#fff' }}
+                icon={<ListItemIcon/>}
             />
         </VerticalTimeline>
     );
