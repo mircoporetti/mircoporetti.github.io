@@ -1,4 +1,4 @@
-import React, {FunctionComponent, Props} from 'react';
+import React, {FunctionComponent} from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme, Theme, createStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -9,7 +9,6 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
@@ -103,18 +102,10 @@ const DrawerLayout: FunctionComponent = (props) => {
                 })}
             >
                 <Toolbar>
-                    <Typography variant="h6" noWrap className={classes.title}>
+                    <Typography variant="h6"  className={classes.title}>
                         Mirco Poretti
                     </Typography>
-                    {/*<IconButton
-                        color="inherit"
-                        aria-label="open drawer"
-                        edge="end"
-                        onClick={handleDrawerOpen}
-                        className={clsx(open && classes.hide)}
-                    >
-                        <MenuIcon />
-                    </IconButton>*/}
+                    {}
                 </Toolbar>
             </AppBar>
             <main
