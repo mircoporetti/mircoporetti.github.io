@@ -10,12 +10,12 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-import StorageIcon from '@material-ui/icons/Storage';
+import {RssFeed} from "@material-ui/icons";
 interface OwnProps {}
 
 type Props = OwnProps;
 
-const PersonalInfo: FunctionComponent<Props> = (props) => {
+const PersonalInfo: FunctionComponent<Props> = () => {
 
     return (
         <>
@@ -73,14 +73,6 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                 </Grid>
                                 <Grid item sm={2}>
                                     <IconButton
-                                        href={"https://stackoverflow.com/users/story/3748710"}
-                                        target={"_blank"}
-                                    >
-                                        <StorageIcon className={css.socialIcon}/>
-                                    </IconButton>
-                                </Grid>
-                                <Grid item sm={2}>
-                                    <IconButton
                                         href={"https://github.com/mircoporetti"}
                                         target={"_blank"}
                                     >
@@ -109,6 +101,14 @@ const PersonalInfo: FunctionComponent<Props> = (props) => {
                                         target={"_blank"}
                                     >
                                         <YouTubeIcon className={css.socialIcon}/>
+                                    </IconButton>
+                                </Grid>
+                                <Grid item sm={2}>
+                                    <IconButton
+                                        href={"https://mircoporetti.me/blog"}
+                                        target={"_blank"}
+                                    >
+                                        <RssFeed className={css.socialIcon}/>
                                     </IconButton>
                                 </Grid>
                             </Grid>
