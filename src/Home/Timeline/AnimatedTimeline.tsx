@@ -12,6 +12,7 @@ export default function AnimatedTimeline() {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{borderTop: "3px solid #33ACEB"}}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                 date="2021 - present"
                 iconStyle={{ background: '#33ACEB', color: '#fff' }}
@@ -25,6 +26,7 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{borderTop: "3px solid #33ACEB"}}
                 date="2019 - 2021"
                 iconStyle={{ background: '#33ACEB', color: '#fff' }}
                 icon={<WorkIcon />}
@@ -42,6 +44,7 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{borderTop: "3px solid #33ACEB"}}
                 date="2018 - 2019"
                 iconStyle={{ background: '#33ACEB', color: '#fff' }}
                 icon={<WorkIcon />}
@@ -56,6 +59,7 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{borderTop: "3px solid #33ACEB"}}
                 date="2016 - 2018"
                 iconStyle={{ background: '#33ACEB', color: '#fff' }}
                 icon={<WorkIcon />}
@@ -70,6 +74,7 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
+                contentStyle={{borderTop: "3px solid #768CC2"}}
                 date="BSc Internship"
                 iconStyle={{ background: '#768CC2', color: '#fff' }}
                 icon={<HomeWorkIcon />}
@@ -82,6 +87,7 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
+                contentStyle={{borderTop: "3px solid #8F2710"}}
                 date="2012 - 2015"
                 iconStyle={{ background: '#8F2710', color: '#fff' }}
                 icon={<SchoolIcon />}
