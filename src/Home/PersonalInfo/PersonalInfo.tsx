@@ -105,9 +105,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                 </Grid>
                                 <Grid item sm={2}>
                                     <IconButton
-                                        href={"https://mircoporetti.me/blog"}
-                                        target={"_blank"}
-                                    >
+                                        href={"https://mircoporetti.me/blog"}>
                                         <RssFeed className={css.socialIcon}/>
                                     </IconButton>
                                 </Grid>

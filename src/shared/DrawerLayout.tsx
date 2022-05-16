@@ -110,8 +110,7 @@ const DrawerLayout: FunctionComponent = (props) => {
                         Mirco
                     </Typography>
                     {}
-                    <Link color= "inherit" underline="none" href={"https://mircoporetti.me/blog"}
-                          target={"_blank"}>
+                    <Link color= "inherit" underline="none" href={"https://mircoporetti.me/blog"}>
                     <Typography align={"right"} variant="h6"  className={classes.title}>
                         Blog
                         <IconButton>
