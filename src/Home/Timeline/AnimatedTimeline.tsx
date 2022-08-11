@@ -22,6 +22,8 @@ export default function AnimatedTimeline() {
                 <h4 className="vertical-timeline-element-subtitle">Berlin, Germany</h4>
                 <p>
                     Implementation of the new services related to MyFriday and collaboration with the team for improving the already existing features of the product.
+                    <br/><br/>
+                    Involvement in software development but also in pipeline management and when necessary in infrastructure configuration (IaC).
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

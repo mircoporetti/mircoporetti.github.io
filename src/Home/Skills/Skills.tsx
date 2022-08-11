@@ -23,6 +23,9 @@ const Skills: FunctionComponent<Props> = (props) => {
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Spring" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Micronaut" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Typescript" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
@@ -48,6 +51,12 @@ const Skills: FunctionComponent<Props> = (props) => {
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Laravel" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Terraform" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Gitlab CI/CD" />
                                     </Grid>
                                 </Grid>
                             </CardContent>
