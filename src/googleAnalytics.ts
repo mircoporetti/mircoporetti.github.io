@@ -3,11 +3,7 @@ import {Cookies} from "react-cookie-consent";
 
 export const initGA = (id: string) => {
     if (process.env.NODE_ENV === "production") {
-        ReactGA.initialize([
-            {
-                trackingId: id
-            }
-        ]);
+        ReactGA.initialize(id);
         ReactGA.send("pageview");
     }
 };
