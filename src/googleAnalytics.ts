@@ -22,7 +22,7 @@ export const handleAcceptAnalyticsCookie = () => {
 export const handleDeclineAnalyticsCookie = () => {
     //remove Google Analytics cookies
     Cookies.remove("_ga");
+    Cookies.remove("_ga_" + process.env.REACT_APP_GOOGLE_ANALYTICS_ID_SUFFIX);
     Cookies.remove("_gat");
     Cookies.remove("_gid");
-    Cookies.remove("_ga_" + process.env.REACT_APP_GOOGLE_ANALYTICS_ID_SUFFIX);
 };
