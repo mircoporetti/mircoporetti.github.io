@@ -1,9 +1,13 @@
-import * as ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import {Cookies} from "react-cookie-consent";
 
 export const initGA = (id: string) => {
     if (process.env.NODE_ENV === "production") {
-        ReactGA.initialize(id);
+        ReactGA.initialize([
+            {
+                trackingId: id
+            }
+        ]);
     }
 };
 
