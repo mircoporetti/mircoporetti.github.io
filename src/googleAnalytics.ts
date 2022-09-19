@@ -8,10 +8,9 @@ export const initGA = (id: string) => {
                 trackingId: id
             }
         ]);
+        ReactGA.send("pageview");
     }
 };
-
-ReactGA.send("pageview");
 
 export const handleAcceptAnalyticsCookie = () => {
     if (process.env.REACT_APP_GOOGLE_ANALYTICS_ID) {
