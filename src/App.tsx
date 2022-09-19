@@ -67,7 +67,7 @@ function App() {
                 onAccept={handleAcceptAnalyticsCookie}
                 onDecline={handleDeclineAnalyticsCookie}
             >
-                This website uses cookies to improve the user experience and to analyze traffic.{" "}
+                This website uses cookies to improve the user experience, to analyze traffic and to allow you to write and read post's comments.{" "}
             </CookieConsent>
         </Box>
     );
