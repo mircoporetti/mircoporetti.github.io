@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Redirect, Route, RouteProps, Switch} from 'reac
 import {Box, CircularProgress} from "@material-ui/core";
 import routes from "./routes";
 import DrawerLayout from "./shared/DrawerLayout";
+import {CookieConsent, getCookieConsentValue} from "react-cookie-consent";
+import {handleAcceptAnalyticsCookie, handleDeclineAnalyticsCookie} from "./googleAnalytics";
 
 interface AppRoute extends RouteProps {
     component: any,
@@ -31,6 +33,11 @@ function App() {
     useEffect(() => {
         document.title = 'Mirco Poretti';
         isLoading(false);
+
+        const isConsent = getCookieConsentValue();
+        if (isConsent === "true") {
+            handleAcceptAnalyticsCookie();
+        }
     }, []);
 
     return (
@@ -47,6 +54,21 @@ function App() {
                     </Switch>
                 </Router>
                 : <CircularProgress className={"spinner"}/>}
+            <CookieConsent
+                location="bottom"
+                buttonText="Allow Cookies"
+                cookieName="mirco_poretti_website"
+                style={{background: "#134f5c"}}
+                buttonStyle={{color: "#000000", background: "#FFFFFF", fontSize: "90%", borderRadius: "7%"}}
+                enableDeclineButton={true}
+                declineButtonText={"Decline"}
+                declineButtonStyle={{background: "#134f5c", fontSize: "90%"}}
+                expires={150}
+                onAccept={handleAcceptAnalyticsCookie}
+                onDecline={handleDeclineAnalyticsCookie}
+            >
+                This website uses cookies to improve the user experience and to analyze traffic.{" "}
+            </CookieConsent>
         </Box>
     );
 }
