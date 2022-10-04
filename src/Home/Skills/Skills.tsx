@@ -26,7 +26,7 @@ const Skills: FunctionComponent<Props> = (props) => {
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Spring" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Micronaut" />
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>M</Avatar>} label="Micronaut" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>T</Avatar>} label="Typescript" />
