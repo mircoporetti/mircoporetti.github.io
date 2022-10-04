@@ -20,16 +20,19 @@ const Skills: FunctionComponent<Props> = (props) => {
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>J</Avatar>} label="Java" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>K</Avatar>} label="Kotlin" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Spring" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>S</Avatar>} label="Micronaut" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Typescript" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>T</Avatar>} label="Typescript" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>M</Avatar>} label="ReactJs" />
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>R</Avatar>} label="ReactJs" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>T</Avatar>} label="TDD" />
@@ -38,25 +41,25 @@ const Skills: FunctionComponent<Props> = (props) => {
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>K</Avatar>} label="Kubernetes"/>
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>M</Avatar>} label="Docker" />
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>D</Avatar>} label="Docker" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>M</Avatar>} label="Kotlin" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>S</Avatar>} label="Sql" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Sql" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>P</Avatar>} label="Php" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Php" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>L</Avatar>} label="Laravel" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Laravel" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>T</Avatar>} label="Terraform" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Terraform" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>G</Avatar>} label="Gitlab CI/CD" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>M</Avatar>} label="Gitlab CI/CD" />
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>H</Avatar>} label="Helm" />
                                     </Grid>
                                 </Grid>
                             </CardContent>
