@@ -6,6 +6,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import List from '@material-ui/core/List';
+import Typewriter from 'typewriter-effect';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
@@ -107,7 +108,15 @@ const DrawerLayout: FunctionComponent = (props) => {
             >
                 <Toolbar>
                     <Typography variant="h5"  className={classes.title}>
-                        Mirco
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter.typeString('{ Hey! I\'m Mirco }')
+                                    .callFunction(() => {
+                                        console.log('Typing Mirco!');
+                                    }).start();
+                            }}
+                        />
+
                     </Typography>
                     {}
                     <Link color= "inherit" underline="none" href={"https://mircoporetti.me/blog"}>
