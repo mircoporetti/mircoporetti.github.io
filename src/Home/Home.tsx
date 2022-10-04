@@ -18,7 +18,7 @@ const Home: FunctionComponent<Props> = (props) => {
 
                 <PersonalInfo/>
 
-                <Grid container justify={"center"} className={css.aboutMeGrid}>
+                <Grid container justifyContent={"center"} className={css.aboutMeGrid}>
                     <Grid item xs={10} sm={8} md={7}>
                         <Typography variant={'h3'} className={css.aboutMe}>About me</Typography>
                         <Typography variant={'h6'} className={css.description}>

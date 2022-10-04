@@ -19,11 +19,11 @@ const PersonalInfo: FunctionComponent<Props> = () => {
 
     return (
         <>
-            <Grid container justify={"center"} className={css.meGrid}>
+            <Grid container justifyContent={"center"} className={css.meGrid}>
                 <Grid item xs={11} sm={8} md={7}>
                     <Card>
                         <CardContent>
-                            <Grid container justify={"center"} spacing={2}>
+                            <Grid container justifyContent={"center"} spacing={2}>
                                 <Grid item xs={12} sm={7} md={5} className={css.avatarWrapper}>
                                     <img src={avatar} alt="Logo" className={css.avatar} />
                                 </Grid>
@@ -33,7 +33,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                     <Typography variant={"h4"} className={css.profession}>Software Engineer</Typography>
                                     <Divider variant={"middle"}/>
                                     <section className={css.basicInfoSection}>
-                                        <Grid container justify={"center"} >
+                                        <Grid container justifyContent={"center"} >
                                             <Grid item xs={1} sm={1} md={1}>
                                                 <CalendarTodayIcon />
                                             </Grid>
@@ -41,7 +41,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                                 <Typography variant={"h6"} className={css.basicInfo}>17th July, 1990</Typography>
                                             </Grid>
                                         </Grid>
-                                        <Grid container justify={"center"} >
+                                        <Grid container justifyContent={"center"} >
                                             <Grid item xs={1} sm={1} md={1}>
                                                 <HomeWorkIcon />
                                             </Grid>
@@ -49,7 +49,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                                 <Typography variant={"h6"} className={css.basicInfo}>Berlin - GERMANY</Typography>
                                             </Grid>
                                         </Grid>
-                                        <Grid container justify={"center"} >
+                                        <Grid container justifyContent={"center"} >
                                             <Grid item xs={1} sm={1} md={1}>
                                                 <MailIcon />
                                             </Grid>
@@ -62,7 +62,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                             </Grid>
                         </CardContent>
                         <CardContent className={css.socialSection}>
-                            <Grid container justify={"center"} className={css.socialContainer}>
+                            <Grid container justifyContent={"center"} className={css.socialContainer}>
                                 <Grid item sm={2}>
                                     <IconButton
                                         href={"https://www.linkedin.com/in/mirco-poretti-197282b4"}

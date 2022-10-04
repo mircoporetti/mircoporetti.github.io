@@ -12,9 +12,9 @@ const Timeline: FunctionComponent<Props> = () => {
     return (
         <>
             <Container maxWidth={false}>
-                <Grid container justify={"center"} className={css.timelineGrid} spacing={2}>
+                <Grid container justifyContent={"center"} className={css.timelineGrid} spacing={2}>
                     <Grid item xs={11} sm={8} lg={9} xl={9}>
-                        <Grid container justify={"center"} spacing={2}>
+                        <Grid container justifyContent={"center"} spacing={2}>
                             <Grid item xs={12} sm={7} md={10}>
                                 <Typography variant={"h6"} className={css.timelineTitle} align={"center"}>Now</Typography>
                             </Grid>

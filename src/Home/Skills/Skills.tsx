@@ -11,11 +11,11 @@ const Skills: FunctionComponent<Props> = (props) => {
     return (
         <>
             <Container maxWidth={false}>
-                <Grid container justify={"center"} className={css.skillsGrid} spacing={2}>
+                <Grid container justifyContent={"center"} className={css.skillsGrid} spacing={2}>
                     <Grid item xs={11} sm={8} md={7}>
                         <Card>
                             <CardContent>
-                                <Grid container justify={"center"} spacing={1}>
+                                <Grid container justifyContent={"center"} spacing={1}>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>J</Avatar>} label="Java" />
                                     </Grid>
