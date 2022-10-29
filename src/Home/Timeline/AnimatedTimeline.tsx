@@ -101,7 +101,7 @@ export default function AnimatedTimeline() {
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                iconStyle={{ background: '#134f5c', color: '#fff' }}
+                iconStyle={{ background: '#515932', color: '#fff' }}
                 icon={<ListItemIcon/>}
             />
         </VerticalTimeline>
