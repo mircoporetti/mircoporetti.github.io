@@ -12,10 +12,10 @@ export default function AnimatedTimeline() {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderTop: "3px solid #33ACEB"}}
+                contentStyle={{borderTop: "3px solid #595859"}}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                 date="2021 - present"
-                iconStyle={{ background: '#33ACEB', color: '#fff' }}
+                iconStyle={{ background: '#595859', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">FRIDAY Insurance</h3>
@@ -28,9 +28,9 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderTop: "3px solid #33ACEB"}}
+                contentStyle={{borderTop: "3px solid #595859"}}
                 date="2019 - 2021"
-                iconStyle={{ background: '#33ACEB', color: '#fff' }}
+                iconStyle={{ background: '#595859', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Dos Group SA</h3>
@@ -46,9 +46,9 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderTop: "3px solid #33ACEB"}}
+                contentStyle={{borderTop: "3px solid #595859"}}
                 date="2018 - 2019"
-                iconStyle={{ background: '#33ACEB', color: '#fff' }}
+                iconStyle={{ background: '#595859', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Restart38</h3>
@@ -61,9 +61,9 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderTop: "3px solid #33ACEB"}}
+                contentStyle={{borderTop: "3px solid #595859"}}
                 date="2016 - 2018"
-                iconStyle={{ background: '#33ACEB', color: '#fff' }}
+                iconStyle={{ background: '#595859', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">eWitness Srl</h3>
@@ -76,9 +76,9 @@ export default function AnimatedTimeline() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                contentStyle={{borderTop: "3px solid #768CC2"}}
+                contentStyle={{borderTop: "3px solid #022873"}}
                 date="BSc Internship"
-                iconStyle={{ background: '#768CC2', color: '#fff' }}
+                iconStyle={{ background: '#022873', color: '#fff' }}
                 icon={<HomeWorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Elmec Informatica</h3>
