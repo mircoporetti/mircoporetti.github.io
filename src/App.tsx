@@ -58,11 +58,11 @@ function App() {
                 location="bottom"
                 buttonText="Allow Cookies"
                 cookieName="mirco_poretti_website"
-                style={{background: "#134f5c"}}
+                style={{background: "#515932"}}
                 buttonStyle={{color: "#000000", background: "#FFFFFF", fontSize: "90%", borderRadius: "7%"}}
                 enableDeclineButton={true}
                 declineButtonText={"Decline"}
-                declineButtonStyle={{background: "#134f5c", fontSize: "90%"}}
+                declineButtonStyle={{background: "#8F2710", fontSize: "90%", borderRadius: "7%"}}
                 expires={150}
                 onAccept={handleAcceptAnalyticsCookie}
                 onDecline={handleDeclineAnalyticsCookie}
