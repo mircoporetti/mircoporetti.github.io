@@ -21,9 +21,9 @@ export default function AnimatedTimeline() {
                 <h3 className="vertical-timeline-element-title">FRIDAY Insurance</h3>
                 <h4 className="vertical-timeline-element-subtitle">Berlin, Germany</h4>
                 <p>
-                    Implementation of the new services related to MyFriday and collaboration with the team for improving the already existing features of the product.
+                    Implementation of self-service features related to MyFriday and enhancing existing product functionalities in close collaboration with other teams and stakeholders, with a focus on ensuring customer satisfaction for Friday users.
                     <br/><br/>
-                    Involvement in software development but also in pipeline management and when necessary in infrastructure configuration (IaC).
+                    Participating in software development, architectural decisions, cross-team discussions, and infrastructure management and monitoring.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
