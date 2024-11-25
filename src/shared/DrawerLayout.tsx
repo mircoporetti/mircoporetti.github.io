@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme: Theme) =>
             display: 'flex',
         },
         appBar: {
-            backgroundColor: '#515932',
+            backgroundColor: '#134f5c',
             transition: theme.transitions.create(['margin', 'width'], {
                 easing: theme.transitions.easing.sharp,
                 duration: theme.transitions.duration.leavingScreen,
