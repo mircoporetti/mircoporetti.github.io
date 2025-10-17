@@ -28,6 +28,9 @@ const Skills: FunctionComponent<Props> = () => {
                                         <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>M</Avatar>} label="Micronaut" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined"  avatar={<Avatar>P</Avatar>} label="Python" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>T</Avatar>} label="Typescript" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
@@ -49,9 +52,6 @@ const Skills: FunctionComponent<Props> = () => {
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>P</Avatar>} label="Php" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
-                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>L</Avatar>} label="Laravel" />
-                                    </Grid>
-                                    <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>T</Avatar>} label="Terraform" />
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
@@ -59,6 +59,9 @@ const Skills: FunctionComponent<Props> = () => {
                                     </Grid>
                                     <Grid item sm={4} md={3} lg={2}>
                                         <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>H</Avatar>} label="Helm" />
+                                    </Grid>
+                                    <Grid item sm={4} md={3} lg={2}>
+                                        <Chip className={css.coloredBorder} variant="outlined" avatar={<Avatar>A</Avatar>} label="AI" />
                                     </Grid>
                                 </Grid>
                             </CardContent>
