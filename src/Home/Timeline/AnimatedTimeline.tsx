@@ -7,6 +7,21 @@ import SchoolIcon from "@material-ui/icons/School";
 import HomeWorkIcon from "@material-ui/icons/HomeWork";
 import {ListItemIcon} from "@material-ui/core";
 
+const countryFlags: { [key: string]: string } = {
+    'Germany': '🇩🇪',
+    'Switzerland': '🇨🇭',
+    'Italy': '🇮🇹',
+};
+
+const getCountryFlag = (location: string) => {
+    for (const [country, flag] of Object.entries(countryFlags)) {
+        if (location.includes(country)) {
+            return flag;
+        }
+    }
+    return '';
+};
+
 export default function AnimatedTimeline() {
     return (
         <VerticalTimeline>
@@ -19,7 +34,7 @@ export default function AnimatedTimeline() {
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">FRIDAY Insurance</h3>
-                <h4 className="vertical-timeline-element-subtitle">Berlin, Germany</h4>
+                <h4 className="vertical-timeline-element-subtitle">Berlin, Germany {getCountryFlag('Berlin, Germany')}</h4>
                 <p>
                     Implementation of self-service features related to MyFriday and enhancing existing product functionalities in close collaboration with other teams and stakeholders, with a focus on ensuring customer satisfaction for Friday users.
                     <br/><br/>
@@ -34,7 +49,7 @@ export default function AnimatedTimeline() {
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Dos Group SA</h3>
-                <h4 className="vertical-timeline-element-subtitle">Mendrisio, Switzerland</h4>
+                <h4 className="vertical-timeline-element-subtitle">Mendrisio, Switzerland {getCountryFlag('Mendrisio, Switzerland')}</h4>
                 <p>
                     I worked on "Comunemio", a mobile application that aggregates various services for municipalities of the Swiss canton of Ticino, developing microservices using Java and Spring framework. Moreover I implemented the ReactJs Frontend and the backend service of the related back-office platform.
                     I had the opportunity to become familiar with Docker, Kubernetes for orchestrating containers and Jenkins for CI/CD.
@@ -52,7 +67,7 @@ export default function AnimatedTimeline() {
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Restart38</h3>
-                <h4 className="vertical-timeline-element-subtitle">Pavia, Italy</h4>
+                <h4 className="vertical-timeline-element-subtitle">Pavia, Italy {getCountryFlag('Pavia, Italy')}</h4>
                 <p>
                     I worked on the backend of various web applications for different customers, collaborating directly with front end developers and graphic designers.
                     <br/><br/>
@@ -67,7 +82,7 @@ export default function AnimatedTimeline() {
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">eWitness Srl</h3>
-                <h4 className="vertical-timeline-element-subtitle">Milan, Italy</h4>
+                <h4 className="vertical-timeline-element-subtitle">Milan, Italy {getCountryFlag('Milan, Italy')}</h4>
                 <p>
                     I implemented solutions, for the import and the secure archiving of documents to support companies in the dematerialization process, using Java programming language.
                     The maintenance of the eWitness digital archiving system was one of my responsabilities.
@@ -82,7 +97,7 @@ export default function AnimatedTimeline() {
                 icon={<HomeWorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Elmec Informatica</h3>
-                <h4 className="vertical-timeline-element-subtitle">Varese, Italy</h4>
+                <h4 className="vertical-timeline-element-subtitle">Varese, Italy {getCountryFlag('Varese, Italy')}</h4>
                 <p>
                     Updating, restyling and adding new features to the company e-learning platform, based on Moodle.
                 </p>
@@ -95,7 +110,7 @@ export default function AnimatedTimeline() {
                 icon={<SchoolIcon />}
             >
                 <h3 className="vertical-timeline-element-title">University of Insubria</h3>
-                <h4 className="vertical-timeline-element-subtitle">Varese, Italy</h4>
+                <h4 className="vertical-timeline-element-subtitle">Varese, Italy {getCountryFlag('Varese, Italy')}</h4>
                 <p>
                     Bachelor's Degree in Computer Science and Technology
                 </p>
