@@ -54,7 +54,7 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                                 <MailIcon />
                                             </Grid>
                                             <Grid item xs={9} sm={7} md={7}>
-                                                <Typography variant={"h6"} className={css.basicInfo}>mircoporetti@gmail.com</Typography>
+                                                <Typography variant={"h6"} className={css.basicInfo}>hello@mircoporetti.me</Typography>
                                             </Grid>
                                         </Grid>
                                     </section>
