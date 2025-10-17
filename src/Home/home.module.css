@@ -5,7 +5,8 @@
 .backgroundImage{
   background-image: url("top_background.jpg");
   background-size: 100%;
-  height: 30rem;
+  height: 33rem;
+  background-attachment: fixed;
 }
 
 .aboutMeGrid{
