@@ -1,5 +1,5 @@
 import React, {FunctionComponent} from 'react';
-import {Container, Grid, Typography} from "@material-ui/core";
+import {Grid, Typography} from "@material-ui/core";
 import css from "./timeline.module.css";
 import AnimatedTimeline from "./AnimatedTimeline";
 
@@ -11,9 +11,8 @@ const Timeline: FunctionComponent<Props> = () => {
 
     return (
         <>
-            <Container maxWidth={false}>
-                <Grid container justifyContent={"center"} className={css.timelineGrid} spacing={2}>
-                    <Grid item xs={11} sm={8} lg={9} xl={9}>
+            <Grid container justifyContent={"center"} className={css.timelineGrid} spacing={2}>
+                    <Grid item xs={11} sm={8} md={7}>
                         <Grid container justifyContent={"center"} spacing={2}>
                             <Grid item xs={12} sm={7} md={10}>
                                 <Typography variant={"h6"} className={css.timelineTitle} align={"center"}>Now</Typography>
@@ -24,7 +23,6 @@ const Timeline: FunctionComponent<Props> = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-            </Container>
         </>
     );
 };

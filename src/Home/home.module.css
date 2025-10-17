@@ -12,6 +12,13 @@
   margin-top: 4rem;
 }
 
+.aboutMeContainer{
+  border-left: 5px solid #134f5c;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .aboutMe{
   font-size: 3rem !important;
   text-transform: uppercase;
