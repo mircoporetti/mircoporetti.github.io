@@ -9,6 +9,13 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 600px) {
+  .backgroundImage {
+    height: 30rem !important;
+    background-attachment: scroll !important;
+  }
+}
+
 .aboutMeGrid{
   margin-top: 5rem;
   margin-bottom: 3rem;
