@@ -24,10 +24,10 @@ const Home: FunctionComponent<Props> = () => {
                             <Typography variant={'h3'} className={css.aboutMe}>About me</Typography>
                             <Typography variant={'h6'} className={css.description}>
                                 Hello, I'm Mirco!
-                                Enthusiastic software developer with a constant desire to grow and learn new things.
+                                Enthusiastic fan of software with a constant desire to grow and learn new things.
                                 I like to write readable, testable and maintainable code to build quality software.
                                 <br/>
-                                I believe in effective communication and clean code.
+                                I believe in effective communication, pragmatism and clean code.
                                 <br/><br/>
                                 And what else...? I love to play guitar and travel with my camera!
                             </Typography>
