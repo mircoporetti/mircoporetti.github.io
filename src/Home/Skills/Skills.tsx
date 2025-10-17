@@ -6,7 +6,7 @@ interface OwnProps {}
 
 type Props = OwnProps;
 
-const Skills: FunctionComponent<Props> = (props) => {
+const Skills: FunctionComponent<Props> = () => {
 
     return (
         <>

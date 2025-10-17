@@ -9,7 +9,7 @@ interface OwnProps {}
 
 type Props = OwnProps;
 
-const Home: FunctionComponent<Props> = (props) => {
+const Home: FunctionComponent<Props> = () => {
 
     return (
         <>
