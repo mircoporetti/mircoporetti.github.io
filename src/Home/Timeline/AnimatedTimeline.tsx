@@ -51,7 +51,7 @@ export default function AnimatedTimeline() {
                 <h3 className="vertical-timeline-element-title">Dos Group SA</h3>
                 <h4 className="vertical-timeline-element-subtitle">Mendrisio, Switzerland {getCountryFlag('Mendrisio, Switzerland')}</h4>
                 <p>
-                    I worked on "Comunemio", a mobile application that aggregates various services for municipalities of the Swiss canton of Ticino, developing microservices using Java and Spring framework. Moreover I implemented the ReactJs Frontend and the backend service of the related back-office platform.
+                    I worked on the backend of a mobile application that aggregates various services for municipalities of the Swiss canton of Ticino, developing microservices using Java and Spring framework. Moreover I implemented the ReactJs Frontend and the backend service of the related back-office platform.
                     I had the opportunity to become familiar with Docker, Kubernetes for orchestrating containers and Jenkins for CI/CD.
                     <br/><br/>
                     I gave my contribution to an IoT system for tracking via Lora devices using Kotlin and RabbitMq, to an application used by Swiss casinos for managing player's responsible gaming limits and built a php/Laravel web application for internal use for a Swiss television broadcaster.
