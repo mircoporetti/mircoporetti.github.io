@@ -89,19 +89,6 @@ const Testimonials: FunctionComponent<Props> = () => {
             imageName: "brandon"
         },
         {
-            name: "Mauro Cherchi",
-            role: "Senior Software Engineer",
-            company: "FRIDAY Insurance",
-            feedback: "Mirco is a highly skilled and professional Software Engineer. He is very passionate about clean code" +
-                " and software architecture and he cares a lot about quality and agility." +
-                "Accountability and ownership are some of his core strengths together with politeness and openness to communication" +
-                " and teamwork." +
-                "He is always prepared to lead, while consistently keeping the door open for discussion and collaboration." +
-                "He is a reliable team player you can always count on.",
-            avatar: "MC",
-            imageName: "mauro"
-        },
-        {
             name: "Hector Zea",
             role: "Frontend Software Engineer",
             company: "FRIDAY Insurance",
@@ -126,6 +113,19 @@ const Testimonials: FunctionComponent<Props> = () => {
                 "always shown his interest in learning new development technologies and he is always willing to improve his clean coding skills.",
             avatar: "BR",
             imageName: "berat"
+        },
+        {
+            name: "Mauro Cherchi",
+            role: "Senior Software Engineer",
+            company: "FRIDAY Insurance",
+            feedback: "Mirco is a highly skilled and professional Software Engineer. He is very passionate about clean code" +
+                " and software architecture and he cares a lot about quality and agility." +
+                "Accountability and ownership are some of his core strengths together with politeness and openness to communication" +
+                " and teamwork." +
+                "He is always prepared to lead, while consistently keeping the door open for discussion and collaboration." +
+                "He is a reliable team player you can always count on.",
+            avatar: "MC",
+            imageName: "mauro"
         }
     ];
 
