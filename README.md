@@ -1,4 +1,4 @@
-<h2>A React material-ui portfolio.</h2>
-This is a Typescipt project with some static info about me.
+<h2>My personal portfolio website.</h2>
+This is a React project with some info about me and my professional journey.
 
 https://mircoporetti.me
