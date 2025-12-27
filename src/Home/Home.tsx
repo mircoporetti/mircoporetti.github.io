@@ -4,6 +4,7 @@ import css from "./home.module.css";
 import Timeline from "./Timeline/Timeline";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
 import Skills from "./Skills/Skills";
+import Testimonials from "./Testimonials/Testimonials";
 
 interface OwnProps {}
 
@@ -36,6 +37,7 @@ const Home: FunctionComponent<Props> = () => {
                 </Grid>
 
                 <Skills/>
+                <Testimonials/>
                 <Timeline/>
 
             </section>

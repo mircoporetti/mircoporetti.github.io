@@ -7,8 +7,6 @@ import HomeWorkIcon from "@material-ui/icons/HomeWork";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import {RssFeed} from "@material-ui/icons";
 interface OwnProps {}
@@ -77,22 +75,6 @@ const PersonalInfo: FunctionComponent<Props> = () => {
                                         target={"_blank"}
                                     >
                                         <GitHubIcon className={css.socialIcon}/>
-                                    </IconButton>
-                                </Grid>
-                                <Grid item sm={2}>
-                                    <IconButton
-                                        href={"https://www.instagram.com/mircoporetti"}
-                                        target={"_blank"}
-                                    >
-                                        <InstagramIcon className={css.socialIcon}/>
-                                    </IconButton>
-                                </Grid>
-                                <Grid item sm={2}>
-                                    <IconButton
-                                        href={"https://www.facebook.com/mirco.poretti"}
-                                        target={"_blank"}
-                                    >
-                                        <FacebookIcon className={css.socialIcon}/>
                                     </IconButton>
                                 </Grid>
                                 <Grid item sm={2}>
