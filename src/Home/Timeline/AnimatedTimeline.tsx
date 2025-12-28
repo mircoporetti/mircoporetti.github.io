@@ -36,9 +36,12 @@ export default function AnimatedTimeline() {
                 <h3 className="vertical-timeline-element-title">FRIDAY Insurance</h3>
                 <h4 className="vertical-timeline-element-subtitle">Berlin, Germany {getCountryFlag('Berlin, Germany')}</h4>
                 <p>
-                    Implementation of self-service features related to MyFriday and enhancing existing product functionalities in close collaboration with other teams and stakeholders, with a focus on ensuring customer satisfaction for Friday users.
+                    Implementation self-services and enhancing existing product functionalities in close collaboration with other teams and stakeholders, with a focus on ensuring customer satisfaction for Friday users.
+                    Contributing to the realization and improvement of internal processes, including tools that help to manage issues and claims more effectively.
                     <br/><br/>
                     Participating in software development, architectural decisions, cross-team discussions, and infrastructure management and monitoring.
+                    <br/><br/>
+                    In the final phase, joined a dedicated task force created to support the portfolio migration.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
