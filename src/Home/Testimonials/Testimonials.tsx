@@ -78,6 +78,19 @@ const Testimonials: FunctionComponent<Props> = () => {
             imageName: "josimar"
         },
         {
+            name: "Mauro Cherchi",
+            role: "Senior Software Engineer",
+            company: "FRIDAY Insurance",
+            feedback: "Mirco is a highly skilled and professional Software Engineer. He is very passionate about clean code" +
+                " and software architecture and he cares a lot about quality and agility." +
+                "Accountability and ownership are some of his core strengths together with politeness and openness to communication" +
+                " and teamwork." +
+                "He is always prepared to lead, while consistently keeping the door open for discussion and collaboration." +
+                "He is a reliable team player you can always count on.",
+            avatar: "MC",
+            imageName: "mauro"
+        },
+        {
             name: "Brandon C. Roberts",
             role: "Senior Software Engineer",
             company: "FRIDAY Insurance",
@@ -115,17 +128,14 @@ const Testimonials: FunctionComponent<Props> = () => {
             imageName: "berat"
         },
         {
-            name: "Mauro Cherchi",
-            role: "Senior Software Engineer",
-            company: "FRIDAY Insurance",
-            feedback: "Mirco is a highly skilled and professional Software Engineer. He is very passionate about clean code" +
-                " and software architecture and he cares a lot about quality and agility." +
-                "Accountability and ownership are some of his core strengths together with politeness and openness to communication" +
-                " and teamwork." +
-                "He is always prepared to lead, while consistently keeping the door open for discussion and collaboration." +
-                "He is a reliable team player you can always count on.",
-            avatar: "MC",
-            imageName: "mauro"
+            name: "Stefano Boffi",
+            role: "CEO",
+            company: "Amastar Srl",
+            feedback: "Mirco played a central role in the backend development of our application. His strong technical skills" +
+                " and thoughtful architectural decisions were key to building a solid and scalable backend, and his contributions" +
+                " remained fundamental throughout the entire collaboration.",
+            avatar: "SB",
+            imageName: "stefano"
         }
     ];
 
