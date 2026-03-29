@@ -1,0 +1,66 @@
+.servicesGrid {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.servicesTitle {
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    margin-bottom: 2rem !important;
+    font-family: "Heebo", sans-serif !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.serviceCard {
+    height: 100%;
+    border-top: 3px solid #134f5c !important;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+}
+
+.serviceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(19, 79, 92, 0.15) !important;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem !important;
+}
+
+.iconWrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(19, 79, 92, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.serviceIcon {
+    font-size: 2rem !important;
+    color: #134f5c;
+}
+
+.serviceTitle {
+    font-weight: 600 !important;
+    color: #134f5c;
+    margin-bottom: 0.75rem !important;
+    font-size: 1rem !important;
+}
+
+.serviceDescription {
+    color: #555;
+    line-height: 1.6 !important;
+}
+
+@media (max-width: 960px) {
+    .servicesTitle {
+        font-size: 1.8rem !important;
+    }
+}

@@ -1,5 +1,5 @@
 import React, {FunctionComponent} from 'react';
-import {Avatar, Card, CardContent, Chip, Grid} from "@material-ui/core";
+import {Avatar, Card, CardContent, Chip, Grid, Typography} from "@material-ui/core";
 import css from "./skills.module.css";
 
 interface OwnProps {}
@@ -12,6 +12,9 @@ const Skills: FunctionComponent<Props> = () => {
         <>
             <Grid container justifyContent={"center"} className={css.skillsGrid} spacing={2}>
                     <Grid item xs={11} sm={8} md={7}>
+                        <Typography variant={"h3"} className={css.skillsTitle}>
+                            Some Keywords
+                        </Typography>
                         <Card>
                             <CardContent>
                                 <Grid container justifyContent={"center"} spacing={1}>
