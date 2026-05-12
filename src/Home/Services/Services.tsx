@@ -15,7 +15,7 @@ interface Service {
 const Services: FunctionComponent = () => {
     const services: Service[] = [
         {
-            title: "Full Stack Software Development",
+            title: "End to End Software Development",
             description: "End-to-end development of scalable, maintainable applications tailored to your business needs. From concept to deployment, using modern technologies and best practices.",
             icon: <CodeIcon className={css.serviceIcon} />
         },
@@ -39,9 +39,6 @@ const Services: FunctionComponent = () => {
     return (
         <Grid container justifyContent={"center"} className={css.servicesGrid}>
             <Grid item xs={11} sm={8} md={7}>
-                <Typography variant={"h3"} className={css.servicesTitle}>
-                    Services
-                </Typography>
                 <Grid container spacing={2}>
                     {services.map((service, index) => (
                         <Grid item xs={12} sm={6} key={index}>
