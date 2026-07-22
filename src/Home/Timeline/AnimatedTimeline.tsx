@@ -29,7 +29,25 @@ export default function AnimatedTimeline() {
                 className="vertical-timeline-element--work"
                 contentStyle={{borderTop: "3px solid #33ACEB"}}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="2021 - present"
+                date="2026 - present"
+                iconStyle={{ background: '#33ACEB', color: '#fff' }}
+                icon={<WorkIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">OASI Informatica</h3>
+                <h4 className="vertical-timeline-element-subtitle">Berlin, Germany (remote) {getCountryFlag('Berlin, Germany')} / {getCountryFlag('Switzerland')}</h4>
+                <p>
+                    Brought in as an external senior specialist to partner with internal engineering leadership to modernize the core product, drive new feature development, and introduce modern engineering practices.
+                    <br/><br/>
+                    Collaborating closely with the Lead Engineer on architecture decisions, integrating scalable technologies, and actively contributing to the redesign of core systems while delivering new product features.
+                    <br/><br/>
+                    Fostering the adoption of modern best practices such as CI/CD, testing methodologies, and architectural patterns derived from experience in larger scale environments.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{borderTop: "3px solid #33ACEB"}}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="2021 - 2026"
                 iconStyle={{ background: '#33ACEB', color: '#fff' }}
                 icon={<WorkIcon />}
             >
